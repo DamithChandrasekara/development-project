@@ -76,6 +76,13 @@
 				<%@include file="./shared/aboutus.jsp"%>
 			</c:if>
 			<!-- Load Only User clicked About Us -->
+			
+			<!-- Load Only User clicked All Doctors -->
+			<c:if test="${userClickedAllDoctors == true or userClickedCategoryDoctors == true}">
+				<%@include file="./shared/listdoctors.jsp"%>
+			</c:if>
+			<!-- Load Only User clicked All Doctors -->
+			
 		</div>
 		<!-- /.container -->
 

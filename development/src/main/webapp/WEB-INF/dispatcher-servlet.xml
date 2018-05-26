@@ -18,7 +18,7 @@
 		base-package="dam.kum.development.controller"></context:component-scan>
 		
 	<context:component-scan
-		base-package="dam.kum.developmentbackend.controller.daoimpl"></context:component-scan>
+		base-package="dam.kum.developmentbackend.daoimpl"></context:component-scan>
 
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">

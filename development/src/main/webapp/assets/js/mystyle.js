@@ -15,6 +15,13 @@ $(function (){
 	case 'About Us':
 		$('#about').addClass('active');
 		break;
+	case 'All Doctors':
+		$('#doctors').addClass('active');
+		break;
+	default :
+		$('#doctors').addClass('active');
+		$('#a_'+menu).addClass('active');
+		break;
 	
 	}
 	
